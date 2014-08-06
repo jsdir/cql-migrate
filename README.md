@@ -16,10 +16,10 @@ Usage
 To save a new migration, pipe in the new schema to `cql-migrate add`.
 
 ```sh
-$ # Use an automatic script.
+$ # Use an automatic script...
 $ node ./generate_schema.js | cql-migrate add -n "first migration"
-$ # Or use a file.
-$ cql-migrate | schema.json
+$ # or use a file.
+$ cql-migrate < schema.json
 ```
 
 If the nme parameter `-n` is not given, you will be prompted for the migration name.
