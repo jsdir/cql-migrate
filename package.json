@@ -1,0 +1,24 @@
+{
+  "name": "cql-migrate",
+  "version": "0.0.0",
+  "description": "Derives deltas and migrates between output schemas from datastored's cassandra adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/migration_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsdir/cql-migrate.git"
+  },
+  "keywords": [
+    "datastored",
+    "cassandra"
+  ],
+  "author": "Jason Sommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdir/cql-migrate/issues"
+  },
+  "homepage": "https://github.com/jsdir/cql-migrate"
+}
+
