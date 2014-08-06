@@ -41,7 +41,7 @@ $ cql-migrate
 To migrate to a specific migration, give the schema filename:
 
 ```sh
-$ cql-migrate 20000101010101_happy_new_year.json
+$ cql-migrate 20000101000000_happy_new_year.json
 ```
 
 A state file is saved in the migration state directory. This will let future migrations know the state of the database and will determine what delta to apply. Since the schema of the latest migration is also saved as state, migrations can be reversed without having to find the last migration. It will already be available in state.
