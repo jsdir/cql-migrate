@@ -19,6 +19,11 @@
   "bugs": {
     "url": "https://github.com/jsdir/cql-migrate/issues"
   },
-  "homepage": "https://github.com/jsdir/cql-migrate"
+  "homepage": "https://github.com/jsdir/cql-migrate",
+  "devDependencies": {
+    "mocha": "~1.21.3"
+  },
+  "dependencies": {
+    "datastored": "~0.1.11"
+  }
 }
-
